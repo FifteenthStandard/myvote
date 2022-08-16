@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 901px) {
+  body {
+    margin: auto;
+    max-width: 1000px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+}
+
+input, select {
+  font-size: 1.0em;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.ballot input[type='number'] {
+  width: 5ch;
+}
+
+.ballot td {
+  min-width: 30ch;
+}
+
+.candidate-list { list-style: none; }
+.candidate-list li { display: inline; padding-right: 3ch; }
+
+nav { margin-top: 1em; border-top: 1px solid black; }
+nav ul { display: flex; justify-content: space-between; padding-inline: 1ch; }
+nav ul li { list-style-type: none; }
+
+.events li + li { margin-top: 1em; }
